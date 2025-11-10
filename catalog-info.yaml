@@ -1,0 +1,21 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tokendito
+  title: Tokendito
+  description: Generates temporary AWS credentials via Okta authentication
+  tags:
+    - python
+    - aws
+    - okta
+    - authentication
+  annotations: {}
+  links:
+    - url: https://github.com/dowjones/tokendito/releases
+      title: Release Notes
+      type: docs-technical
+spec:
+  type: library
+  lifecycle: production
+  owner: group:default/skyway
