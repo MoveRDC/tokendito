@@ -32,6 +32,7 @@ class Config(object):
             loglevel="INFO",
             log_output_file="",
             use_device_token=False,
+            use_session_token=False,
             mask_items=[],
             quiet=False,
             login_timeout=0,
@@ -53,6 +54,9 @@ class Config(object):
             tile=None,
             org=None,
             device_token=None,
+            session_token=None,
+            session_token_expiry=None,
+            session_id=None,
         ),
     )
 
